@@ -1,0 +1,9 @@
+pip install fastapi
+pip install uvicorn
+pip install scikit-learn
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install joblib
+pip install psutil
