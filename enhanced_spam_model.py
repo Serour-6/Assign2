@@ -256,4 +256,3 @@ with open('model/performance_metrics.txt', 'w') as f:
     f.write(f"Cross-validation F1 (std): {results['cv_f1_std']:.4f}\n")
     f.write(f"\nAverage prediction time per message: {prediction_time/len(X_test):.5f} seconds\n")
 
-print("\nModel training and evaluation completed successfully!")
