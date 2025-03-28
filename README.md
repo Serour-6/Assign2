@@ -351,6 +351,3 @@ class PredictionResponse(BaseModel):
     request_id: str = Field(..., description="Unique identifier for this request")
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
